@@ -1,6 +1,11 @@
+'''   To scrapping the disaster types from  https://www.emdat.be/classification
+Input : website link:  https://www.emdat.be/classification  
+Output : CSV file containing the disaster types '''
+
 import requests
 import csv
 from bs4 import BeautifulSoup as bp
+
 
 url = 'https://www.emdat.be/classification'
 res = requests.get(url)
