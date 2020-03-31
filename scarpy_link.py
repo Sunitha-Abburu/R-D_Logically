@@ -1,4 +1,5 @@
-'''   To scrapping the disaster types from  https://www.emdat.be/classification
+''' 
+Process: To scrapping the disaster types from  https://www.emdat.be/classification
 Input : website link:  https://www.emdat.be/classification  
 Output : CSV file containing the disaster types '''
 
